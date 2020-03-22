@@ -1,5 +1,5 @@
 ﻿#Network Assessment core task script. V3.0 - 22/3/20
-#By Joel Ulrich - julrich@icomm.com.au / joel@julrich.com
+#By Joel Ulrich - joel@julrich.com
 
 #Runs 12 assessments as 1&2 start and pause then 3-12 run???
 #Dont change these vars, sets the out and binary directories. 
