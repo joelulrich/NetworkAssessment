@@ -1,5 +1,5 @@
 #Network Assessmentsetup script. V3.0 - 22/3/20
-#By Joel Ulrich - joel@julrich.com
+#By Joel Ulrich - joel@julrich.com, no warranties. Use at your own risk.
 #Setup for Network Assessment script, adds firewall rules and copies binaries
 
 
