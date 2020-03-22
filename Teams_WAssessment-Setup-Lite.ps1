@@ -1,5 +1,5 @@
 #Network Assessmentsetup script. V3.0 - 22/3/20
-#By Joel Ulrich - julrich@icomm.com.au / joel@julrich.com
+#By Joel Ulrich - joel@julrich.com
 #Setup for Network Assessment script, adds firewall rules and copies binaries
 
 
