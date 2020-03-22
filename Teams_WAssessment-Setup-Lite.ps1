@@ -6,7 +6,7 @@
 #Only change if not installed under default directory
 $nwAssessDir = "C:\Program Files (x86)\Microsoft Skype for Business Network Assessment Tool"
 #how many agents?
-$testUnits = 3
+$testUnits = 12
 
 #dont change 
 $workingDir = $PSScriptRoot
