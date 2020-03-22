@@ -23,8 +23,9 @@ While ($i -lt($testUnits+1)) {
     if(!(Test-Path -Path ($binDir + "\" + $i.ToString() + "\") ) ) {
         $binDirDest = $binDir + "\" + $i
         mkdir $binDirDest
-        Copy-Item -Path ($nwAssessDir + "\*") -Destination $binDirDest -Force
-        
+        Copy-Item -Path ($nwAssessDir + "\*") -Destination $binDirDest -Force  
+        $config = Get-Content -Path ($binDirDest + "\NetworkAssessmentTool.exe.config")
+        $config.Replace('<add key="ResultsFilePath" value="performance_results.tsv"/>','<add key="ResultsFilePath" value="performance_results' + $i.ToString() + '.csv"/>') | Out-file ($binDirDest + "\NetworkAssessmentTool.exe.config") -Force
     }
     $i++
 }
@@ -46,4 +47,3 @@ While ($i -lt($testUnits+1)){
     $i++
     
 }
-	
